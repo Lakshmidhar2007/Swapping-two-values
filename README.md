@@ -18,7 +18,14 @@ Print both the values it would be interchanged
 ### Step 6: 
 End the program
 ## PROGRAM:
-
+    a = int(input())
+    b = int(input())
+    c = a
+    a = b
+    b = c
+    print("Swapped values are:",a,b)
+## OUTPUT
+![OUTPUT_IMAGE](<Screenshot 2024-10-26 140421.png>)
 
 
 ## RESULT:
